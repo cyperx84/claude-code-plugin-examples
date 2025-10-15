@@ -1,0 +1,12 @@
+{
+  "name": "hello-plugin",
+  "version": "1.0.0",
+  "description": "A simple greeting plugin to learn the basics of Claude Code plugins",
+  "author": {
+    "name": "Claude Code Learning",
+    "email": "learn@example.com"
+  },
+  "keywords": ["learning", "beginner", "greeting", "example"],
+  "license": "MIT",
+  "homepage": "https://github.com/example/claude-plugins"
+}

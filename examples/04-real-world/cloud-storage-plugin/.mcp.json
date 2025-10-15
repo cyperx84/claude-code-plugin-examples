@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "aws-s3": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-aws-s3"],
+      "env": {
+        "AWS_ACCESS_KEY_ID": "${AWS_ACCESS_KEY_ID}",
+        "AWS_SECRET_ACCESS_KEY": "${AWS_SECRET_ACCESS_KEY}",
+        "AWS_REGION": "${AWS_REGION}"
+      }
+    }
+  }
+}

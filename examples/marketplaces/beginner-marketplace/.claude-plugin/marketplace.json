@@ -1,0 +1,41 @@
+{
+  "name": "beginner-marketplace",
+  "description": "Beginner-level Claude Code plugin examples for learning the basics",
+  "owner": {
+    "name": "Claude Code Learning Examples",
+    "email": "examples@claude-code-learning.com",
+    "url": "https://github.com/example/claude-plugins"
+  },
+  "plugins": [
+    {
+      "name": "hello-plugin",
+      "source": "../../01-beginner/hello-plugin",
+      "description": "Simple greeting plugin demonstrating basic commands",
+      "version": "1.0.0",
+      "author": {
+        "name": "Claude Code Learning"
+      },
+      "keywords": ["beginner", "greeting", "learning"]
+    },
+    {
+      "name": "git-helper-plugin",
+      "source": "../../01-beginner/git-helper-plugin",
+      "description": "Git workflow automation with argument handling",
+      "version": "1.0.0",
+      "author": {
+        "name": "Claude Code Learning"
+      },
+      "keywords": ["beginner", "git", "workflow", "arguments"]
+    },
+    {
+      "name": "code-snippets-plugin",
+      "source": "../../01-beginner/code-snippets-plugin",
+      "description": "Code generation and refactoring with namespaced commands",
+      "version": "1.0.0",
+      "author": {
+        "name": "Claude Code Learning"
+      },
+      "keywords": ["beginner", "code-generation", "snippets", "namespacing"]
+    }
+  ]
+}

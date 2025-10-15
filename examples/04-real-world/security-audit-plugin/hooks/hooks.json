@@ -1,0 +1,18 @@
+{
+  "hooks": [
+    {
+      "event": "PreToolUse",
+      "tool": "Bash(git:commit:*)",
+      "command": "bash ./scripts/security-check.sh",
+      "description": "Security scan before commits",
+      "block_on_error": true,
+      "timeout": 30000
+    },
+    {
+      "event": "PostToolUse",
+      "tool": "Write",
+      "command": "bash -c 'if [[ \"$FILE_PATH\" =~ \\.(js|ts|py)$ ]]; then echo \"🔍 Scanning $FILE_PATH for security issues...\"; fi'",
+      "description": "Notify on security-sensitive file changes"
+    }
+  ]
+}

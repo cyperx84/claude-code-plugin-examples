@@ -1,0 +1,21 @@
+{
+  "name": "advanced-marketplace",
+  "description": "Advanced Claude Code plugins with MCP integration for enterprise use",
+  "owner": {
+    "name": "Claude Code Learning Examples",
+    "email": "examples@claude-code-learning.com"
+  },
+  "plugins": [
+    {
+      "name": "devops-plugin",
+      "source": "../../03-advanced/devops-plugin",
+      "description": "Enterprise DevOps automation with GitHub and Sentry MCP integration",
+      "version": "3.0.0",
+      "author": {
+        "name": "Claude Code Learning"
+      },
+      "keywords": ["advanced", "devops", "mcp", "github", "sentry", "deployment"],
+      "homepage": "https://github.com/example/claude-plugins/tree/main/devops-plugin"
+    }
+  ]
+}

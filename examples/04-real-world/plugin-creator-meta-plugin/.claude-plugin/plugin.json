@@ -1,0 +1,10 @@
+{
+  "name": "plugin-creator",
+  "version": "1.0.0",
+  "description": "Meta-plugin that creates other Claude Code plugins automatically",
+  "author": {
+    "name": "Claude Code Meta Tools"
+  },
+  "keywords": ["meta", "generator", "automation", "scaffold", "real-world"],
+  "license": "MIT"
+}

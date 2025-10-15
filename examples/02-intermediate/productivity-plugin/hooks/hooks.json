@@ -1,0 +1,15 @@
+{
+  "hooks": [
+    {
+      "event": "SessionStart",
+      "command": "echo \"📅 $(date '+%A, %B %d, %Y')\n⏰ Session started at $(date '+%H:%M')\n📂 $(basename $(pwd))\"",
+      "description": "Show session info on start"
+    },
+    {
+      "event": "PostToolUse",
+      "tool": "Write|Edit",
+      "command": "bash -c 'echo \"📝 Modified: $(basename \"$FILE_PATH\")\"'",
+      "description": "Track file modifications"
+    }
+  ]
+}

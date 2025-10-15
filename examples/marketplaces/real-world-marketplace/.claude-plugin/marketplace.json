@@ -1,0 +1,81 @@
+{
+  "name": "real-world-examples",
+  "description": "Production-ready real-world Claude Code plugin examples showcasing diverse patterns",
+  "owner": {
+    "name": "Claude Code Real-World Examples",
+    "email": "real-world@claude-plugins.dev",
+    "url": "https://github.com/example/claude-plugins"
+  },
+  "plugins": [
+    {
+      "name": "plugin-creator",
+      "source": "../../04-real-world/plugin-creator-meta-plugin",
+      "description": "Meta-plugin that creates other plugins automatically",
+      "version": "1.0.0",
+      "keywords": ["meta", "generator", "scaffold", "automation"]
+    },
+    {
+      "name": "pr-reviewer",
+      "source": "../../04-real-world/pr-reviewer-plugin",
+      "description": "Automated PR reviews with GitHub MCP integration",
+      "version": "2.1.0",
+      "keywords": ["github", "pr", "code-review", "mcp"]
+    },
+    {
+      "name": "database-manager",
+      "source": "../../04-real-world/database-plugin",
+      "description": "Database management with PostgreSQL MCP and migrations",
+      "version": "3.0.0",
+      "keywords": ["database", "postgresql", "migrations", "mcp"]
+    },
+    {
+      "name": "security-audit",
+      "source": "../../04-real-world/security-audit-plugin",
+      "description": "Proactive security scanning and vulnerability detection",
+      "version": "1.5.0",
+      "keywords": ["security", "audit", "vulnerability", "proactive"]
+    },
+    {
+      "name": "api-testing",
+      "source": "../../04-real-world/api-testing-plugin",
+      "description": "API testing and mock generation",
+      "version": "2.0.0",
+      "keywords": ["api", "testing", "rest", "mock"]
+    },
+    {
+      "name": "docs-generator",
+      "source": "../../04-real-world/docs-generator-plugin",
+      "description": "Automated documentation generation from code",
+      "version": "1.8.0",
+      "keywords": ["documentation", "api-docs", "auto-generate"]
+    },
+    {
+      "name": "web-scraping",
+      "source": "../../04-real-world/web-scraping-plugin",
+      "description": "Web scraping and browser automation with Puppeteer MCP",
+      "version": "2.0.0",
+      "keywords": ["scraping", "automation", "puppeteer", "browser", "mcp"]
+    },
+    {
+      "name": "slack-integration",
+      "source": "../../04-real-world/slack-integration-plugin",
+      "description": "Team communication and notifications with Slack MCP",
+      "version": "1.5.0",
+      "keywords": ["slack", "communication", "notifications", "team", "mcp"]
+    },
+    {
+      "name": "cloud-storage",
+      "source": "../../04-real-world/cloud-storage-plugin",
+      "description": "Cloud storage management with AWS S3 MCP",
+      "version": "1.0.0",
+      "keywords": ["cloud", "storage", "s3", "aws", "backup", "mcp"]
+    },
+    {
+      "name": "knowledge-base",
+      "source": "../../04-real-world/knowledge-base-plugin",
+      "description": "Knowledge management with Notion MCP",
+      "version": "1.0.0",
+      "keywords": ["notion", "knowledge", "documentation", "wiki", "mcp"]
+    }
+  ]
+}

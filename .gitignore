@@ -1,0 +1,80 @@
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# Logs and Temporary Files
+*.log
+*.tmp
+*.temp
+*.cache
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Node Modules (if any examples use npm)
+node_modules/
+.npm/
+.yarn/
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+*.secret
+
+# Build Output
+dist/
+build/
+out/
+*.min.js
+*.min.css
+
+# Package Manager
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Python (if any examples use Python)
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+env/
+ENV/
+
+# Test Coverage
+coverage/
+.nyc_output/
+*.lcov
+
+# Backup Files
+*.bak
+*.backup
+*~
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+
+# Personal Notes (not to be committed)
+NOTES.md
+TODO.txt
+scratch/
+drafts/

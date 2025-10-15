@@ -1,0 +1,10 @@
+{
+  "name": "productivity-plugin",
+  "version": "1.5.0",
+  "description": "Daily productivity tools with standup reports, code reviews, and time tracking",
+  "author": {
+    "name": "Claude Code Learning"
+  },
+  "keywords": ["productivity", "standup", "review", "intermediate"],
+  "license": "MIT"
+}

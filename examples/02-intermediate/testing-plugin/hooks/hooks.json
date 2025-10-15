@@ -1,0 +1,32 @@
+{
+  "hooks": [
+    {
+      "event": "PreToolUse",
+      "tool": "Bash(git:commit:*)",
+      "command": "bash ./scripts/pre-commit-tests.sh",
+      "description": "Run tests before git commits",
+      "block_on_error": true,
+      "timeout": 60000
+    },
+    {
+      "event": "PostToolUse",
+      "tool": "Write|Edit",
+      "command": "bash -c 'if [[ \"$FILE_PATH\" == *test* ]] || [[ \"$FILE_PATH\" == *spec* ]]; then echo \"✓ Test file modified: $FILE_PATH\"; fi'",
+      "description": "Notify when test files are modified",
+      "timeout": 1000
+    },
+    {
+      "event": "UserPromptSubmit",
+      "command": "bash -c 'if command -v npm &> /dev/null; then npm test -- --lastCommit --passWithNoTests 2>&1 | grep -E \"(PASS|FAIL|Tests:)\" | head -3 || echo \"No recent test changes\"; fi'",
+      "description": "Show recent test status on prompt",
+      "timeout": 5000
+    },
+    {
+      "event": "PostToolUse",
+      "tool": "Bash(npm:test:*)",
+      "command": "bash ./scripts/coverage-check.sh",
+      "description": "Check coverage after test runs",
+      "timeout": 10000
+    }
+  ]
+}

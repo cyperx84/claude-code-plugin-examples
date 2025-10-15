@@ -1,0 +1,30 @@
+{
+  "name": "intermediate-marketplace",
+  "description": "Intermediate-level Claude Code plugins with agents and hooks",
+  "owner": {
+    "name": "Claude Code Learning Examples",
+    "email": "examples@claude-code-learning.com"
+  },
+  "plugins": [
+    {
+      "name": "testing-plugin",
+      "source": "../../02-intermediate/testing-plugin",
+      "description": "Comprehensive testing automation with test generator and debugger agents",
+      "version": "2.0.0",
+      "author": {
+        "name": "Claude Code Learning"
+      },
+      "keywords": ["intermediate", "testing", "agents", "hooks", "automation"]
+    },
+    {
+      "name": "productivity-plugin",
+      "source": "../../02-intermediate/productivity-plugin",
+      "description": "Daily productivity tools with standup reports and code reviews",
+      "version": "1.5.0",
+      "author": {
+        "name": "Claude Code Learning"
+      },
+      "keywords": ["intermediate", "productivity", "standup", "review", "agents"]
+    }
+  ]
+}

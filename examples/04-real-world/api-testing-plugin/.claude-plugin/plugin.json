@@ -1,0 +1,10 @@
+{
+  "name": "api-testing",
+  "version": "2.0.0",
+  "description": "API testing, mocking, and documentation with automated test generation",
+  "author": {
+    "name": "Real-World Examples"
+  },
+  "keywords": ["api", "testing", "rest", "http", "mock", "real-world"],
+  "license": "MIT"
+}

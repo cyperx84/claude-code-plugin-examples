@@ -1,0 +1,10 @@
+{
+  "name": "slack-integration",
+  "version": "1.5.0",
+  "description": "Team communication and automation with Slack MCP for notifications, messaging, and collaboration",
+  "author": {
+    "name": "Real-World Examples"
+  },
+  "keywords": ["slack", "communication", "notifications", "team", "mcp", "real-world"],
+  "license": "MIT"
+}

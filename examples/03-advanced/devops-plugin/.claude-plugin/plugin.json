@@ -1,0 +1,16 @@
+{
+  "name": "devops-plugin",
+  "version": "3.0.0",
+  "description": "Enterprise DevOps automation with GitHub and Sentry MCP integration",
+  "author": {
+    "name": "Claude Code Learning",
+    "email": "devops@example.com"
+  },
+  "keywords": ["devops", "deployment", "monitoring", "mcp", "advanced"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/example/claude-plugins"
+  },
+  "homepage": "https://github.com/example/claude-plugins/tree/main/devops-plugin"
+}

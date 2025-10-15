@@ -1,0 +1,15 @@
+{
+  "name": "testing-plugin",
+  "version": "2.0.0",
+  "description": "Comprehensive testing automation with agents and hooks",
+  "author": {
+    "name": "Claude Code Learning",
+    "email": "learn@example.com"
+  },
+  "keywords": ["testing", "automation", "tdd", "quality", "intermediate"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/example/claude-plugins"
+  }
+}

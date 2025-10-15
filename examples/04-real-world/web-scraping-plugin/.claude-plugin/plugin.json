@@ -1,0 +1,10 @@
+{
+  "name": "web-scraping",
+  "version": "2.0.0",
+  "description": "Web scraping and browser automation with Puppeteer MCP for data extraction and testing",
+  "author": {
+    "name": "Real-World Examples"
+  },
+  "keywords": ["scraping", "automation", "puppeteer", "browser", "data-extraction", "mcp", "real-world"],
+  "license": "MIT"
+}

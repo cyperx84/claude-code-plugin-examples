@@ -1,0 +1,10 @@
+{
+  "name": "knowledge-base",
+  "version": "1.0.0",
+  "description": "Knowledge management with Notion MCP for documentation, notes, and team wikis",
+  "author": {
+    "name": "Real-World Examples"
+  },
+  "keywords": ["notion", "knowledge", "documentation", "notes", "wiki", "mcp", "real-world"],
+  "license": "MIT"
+}

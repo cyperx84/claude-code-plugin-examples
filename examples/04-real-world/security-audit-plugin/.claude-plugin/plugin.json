@@ -1,0 +1,10 @@
+{
+  "name": "security-audit",
+  "version": "1.5.0",
+  "description": "Proactive security scanning, vulnerability detection, and compliance checking",
+  "author": {
+    "name": "Real-World Examples"
+  },
+  "keywords": ["security", "audit", "vulnerability", "compliance", "proactive", "real-world"],
+  "license": "MIT"
+}

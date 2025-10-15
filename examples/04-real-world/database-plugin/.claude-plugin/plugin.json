@@ -1,0 +1,10 @@
+{
+  "name": "database-manager",
+  "version": "3.0.0",
+  "description": "Comprehensive database management with PostgreSQL/MySQL support, migrations, and query optimization",
+  "author": {
+    "name": "Real-World Examples"
+  },
+  "keywords": ["database", "postgresql", "mysql", "migrations", "mcp", "real-world"],
+  "license": "MIT"
+}

@@ -1,0 +1,123 @@
+{
+  "name": "claude-code-learning-examples",
+  "description": "Complete collection of Claude Code plugin examples from beginner to advanced",
+  "owner": {
+    "name": "Claude Code Learning Examples",
+    "email": "examples@claude-code-learning.com",
+    "url": "https://github.com/example/claude-plugins"
+  },
+  "plugins": [
+    {
+      "name": "hello-plugin",
+      "source": "../../01-beginner/hello-plugin",
+      "description": "Beginner: Simple greeting plugin",
+      "version": "1.0.0",
+      "keywords": ["beginner", "greeting"]
+    },
+    {
+      "name": "git-helper-plugin",
+      "source": "../../01-beginner/git-helper-plugin",
+      "description": "Beginner: Git workflow automation",
+      "version": "1.0.0",
+      "keywords": ["beginner", "git"]
+    },
+    {
+      "name": "code-snippets-plugin",
+      "source": "../../01-beginner/code-snippets-plugin",
+      "description": "Beginner: Code generation and snippets",
+      "version": "1.0.0",
+      "keywords": ["beginner", "snippets"]
+    },
+    {
+      "name": "testing-plugin",
+      "source": "../../02-intermediate/testing-plugin",
+      "description": "Intermediate: Testing automation with agents",
+      "version": "2.0.0",
+      "keywords": ["intermediate", "testing", "agents"]
+    },
+    {
+      "name": "productivity-plugin",
+      "source": "../../02-intermediate/productivity-plugin",
+      "description": "Intermediate: Daily productivity tools",
+      "version": "1.5.0",
+      "keywords": ["intermediate", "productivity"]
+    },
+    {
+      "name": "devops-plugin",
+      "source": "../../03-advanced/devops-plugin",
+      "description": "Advanced: Enterprise DevOps with MCP",
+      "version": "3.0.0",
+      "keywords": ["advanced", "devops", "mcp"]
+    },
+    {
+      "name": "plugin-creator",
+      "source": "../../04-real-world/plugin-creator-meta-plugin",
+      "description": "Real-World: Meta-plugin for creating plugins",
+      "version": "1.0.0",
+      "keywords": ["real-world", "meta", "generator"]
+    },
+    {
+      "name": "pr-reviewer",
+      "source": "../../04-real-world/pr-reviewer-plugin",
+      "description": "Real-World: GitHub PR automation",
+      "version": "2.1.0",
+      "keywords": ["real-world", "github", "mcp"]
+    },
+    {
+      "name": "database-manager",
+      "source": "../../04-real-world/database-plugin",
+      "description": "Real-World: PostgreSQL management",
+      "version": "3.0.0",
+      "keywords": ["real-world", "database", "mcp"]
+    },
+    {
+      "name": "security-audit",
+      "source": "../../04-real-world/security-audit-plugin",
+      "description": "Real-World: Security scanning",
+      "version": "1.5.0",
+      "keywords": ["real-world", "security"]
+    },
+    {
+      "name": "api-testing",
+      "source": "../../04-real-world/api-testing-plugin",
+      "description": "Real-World: API testing",
+      "version": "2.0.0",
+      "keywords": ["real-world", "api", "testing"]
+    },
+    {
+      "name": "docs-generator",
+      "source": "../../04-real-world/docs-generator-plugin",
+      "description": "Real-World: Doc generation",
+      "version": "1.8.0",
+      "keywords": ["real-world", "documentation"]
+    },
+    {
+      "name": "web-scraping",
+      "source": "../../04-real-world/web-scraping-plugin",
+      "description": "Real-World: Web scraping with Puppeteer",
+      "version": "2.0.0",
+      "keywords": ["real-world", "scraping", "mcp"]
+    },
+    {
+      "name": "slack-integration",
+      "source": "../../04-real-world/slack-integration-plugin",
+      "description": "Real-World: Slack notifications",
+      "version": "1.5.0",
+      "keywords": ["real-world", "slack", "mcp"]
+    },
+    {
+      "name": "cloud-storage",
+      "source": "../../04-real-world/cloud-storage-plugin",
+      "description": "Real-World: AWS S3 storage",
+      "version": "1.0.0",
+      "keywords": ["real-world", "cloud", "mcp"]
+    },
+    {
+      "name": "knowledge-base",
+      "source": "../../04-real-world/knowledge-base-plugin",
+      "description": "Real-World: Notion knowledge management",
+      "version": "1.0.0",
+      "keywords": ["real-world", "notion", "mcp"]
+    }
+  ]
+}

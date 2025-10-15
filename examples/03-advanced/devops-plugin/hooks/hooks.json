@@ -1,0 +1,32 @@
+{
+  "hooks": [
+    {
+      "event": "PreToolUse",
+      "tool": "Bash(kubectl:apply*)",
+      "command": "bash ./scripts/pre-deploy-validation.sh",
+      "description": "Validate before Kubernetes deployments",
+      "block_on_error": true,
+      "timeout": 30000
+    },
+    {
+      "event": "PostToolUse",
+      "tool": "Bash(kubectl:apply*)",
+      "command": "bash ./scripts/post-deploy-checks.sh",
+      "description": "Verify deployment success",
+      "timeout": 60000
+    },
+    {
+      "event": "PostToolUse",
+      "tool": "Bash(kubectl:rollout:undo*)",
+      "command": "bash -c 'echo \"⚠️  ROLLBACK EXECUTED\" && ./scripts/notify-rollback.sh'",
+      "description": "Alert on rollbacks",
+      "timeout": 5000
+    },
+    {
+      "event": "UserPromptSubmit",
+      "command": "bash -c 'kubectl get pods --field-selector status.phase!=Running 2>/dev/null | grep -v \"No resources\" | head -5 || echo \"✅ All pods running\"'",
+      "description": "Show unhealthy pods",
+      "timeout": 5000
+    }
+  ]
+}

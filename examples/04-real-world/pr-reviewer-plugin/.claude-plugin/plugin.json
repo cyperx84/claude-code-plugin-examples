@@ -1,0 +1,12 @@
+{
+  "name": "pr-reviewer",
+  "version": "2.1.0",
+  "description": "Automated pull request reviews with GitHub integration and AI-powered analysis",
+  "author": {
+    "name": "Real-World Examples",
+    "email": "examples@claude-plugins.dev"
+  },
+  "keywords": ["github", "pr", "code-review", "mcp", "real-world", "collaboration"],
+  "license": "MIT",
+  "homepage": "https://github.com/example/claude-plugins/tree/main/pr-reviewer-plugin"
+}

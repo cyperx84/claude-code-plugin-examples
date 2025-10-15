@@ -1,0 +1,10 @@
+{
+  "name": "docs-generator",
+  "version": "1.8.0",
+  "description": "Automated documentation generation from code, APIs, and databases",
+  "author": {
+    "name": "Real-World Examples"
+  },
+  "keywords": ["documentation", "api-docs", "auto-generate", "readme", "real-world"],
+  "license": "MIT"
+}

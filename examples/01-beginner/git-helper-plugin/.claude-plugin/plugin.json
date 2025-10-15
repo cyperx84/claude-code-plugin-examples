@@ -1,0 +1,15 @@
+{
+  "name": "git-helper-plugin",
+  "version": "1.0.0",
+  "description": "Git workflow automation commands with argument handling examples",
+  "author": {
+    "name": "Claude Code Learning",
+    "email": "learn@example.com"
+  },
+  "keywords": ["git", "version-control", "workflow", "beginner"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/example/claude-plugins"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "code-snippets-plugin",
+  "version": "1.0.0",
+  "description": "Code generation and refactoring commands with namespaced organization",
+  "author": {
+    "name": "Claude Code Learning",
+    "email": "learn@example.com"
+  },
+  "keywords": ["code-generation", "snippets", "refactoring", "beginner"],
+  "license": "MIT"
+}
