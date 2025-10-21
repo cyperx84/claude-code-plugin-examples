@@ -2,10 +2,11 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Plugins](https://img.shields.io/badge/Plugins-17-blue)](./examples)
+[![Skills](https://img.shields.io/badge/Skills-17-purple)](./SKILLS_INDEX.md)
 [![MCP Integrations](https://img.shields.io/badge/MCP%20Integrations-7-green)](./examples/04-real-world)
 [![Test Coverage](https://img.shields.io/badge/Test%20Coverage-100%25-brightgreen)](./examples/tests)
 
-> **The most comprehensive collection of Claude Code plugin examples**, from beginner to production-ready. Learn by doing with **17 fully-functional plugins** demonstrating diverse patterns, **7 MCP integrations**, and real-world use cases.
+> **The most comprehensive collection of Claude Code plugin examples**, from beginner to production-ready. Learn by doing with **17 fully-functional plugins** demonstrating diverse patterns, **17 expert skills**, **7 MCP integrations**, and real-world use cases.
 
 ---
 
@@ -15,12 +16,13 @@ This repository contains a **complete learning ecosystem** for Claude Code plugi
 
 - **17 Production-Ready Plugins** across 4 difficulty tiers
 - **41+ Commands** demonstrating diverse patterns
+- **17 Expert Skills** for enhanced AI capabilities (🆕)
 - **10+ Specialized Agents** (proactive and on-demand)
 - **7 MCP Integrations** (GitHub, PostgreSQL, Sentry, Puppeteer, Slack, AWS S3, Notion)
 - **10+ Hook Implementations** for automation
 - **5 Marketplace Configurations** for easy distribution
 - **100% Test Coverage** with comprehensive test suites
-- **25,000+ Lines** of documentation and examples
+- **37,000+ Lines** of documentation and examples
 
 ---
 
@@ -201,6 +203,7 @@ claude-code-plugins/
 
 ✅ **Plugin Structure** - Metadata, organization, best practices
 ✅ **Commands** - Arguments, tool restrictions, namespacing
+✅ **Skills** - Domain expertise modules for enhanced output (🆕)
 ✅ **Agents** - Specialized agents, proactive activation
 ✅ **Hooks** - Event-driven automation, lifecycle management
 ✅ **MCP Integration** - External services, OAuth, data access
@@ -358,12 +361,13 @@ Notion integration for documentation management.
 ```
 Total Plugins:           17
 Total Commands:          41+
+Total Skills:            17 (🆕)
 Total Agents:            10+
 Total Hooks:             10+
 Total MCP Servers:       7
-Total Files:             150+
-Total Lines of Code:     25,000+
-Total Documentation:     30,000+ words
+Total Files:             180+
+Total Lines of Code:     37,000+
+Total Documentation:     45,000+ words
 Test Coverage:           100%
 Success Rate:            100%
 ```
@@ -419,6 +423,8 @@ Special thanks to the Claude Code community for patterns and best practices.
 
 ## 📚 Documentation
 
+- **[Skills Guide](SKILLS_GUIDE.md)** - Comprehensive guide to using skills in plugins (🆕)
+- **[Skills Index](SKILLS_INDEX.md)** - Complete catalog of all 17 skills (🆕)
 - **[Examples README](examples/README.md)** - Detailed guide for all examples
 - **[Ultra Comprehensive Summary](examples/ULTRA_COMPREHENSIVE_SUMMARY.md)** - Complete project documentation
 - **[New Plugins Summary](examples/NEW_PLUGINS_SUMMARY.md)** - Latest additions and features
